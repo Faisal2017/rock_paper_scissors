@@ -5,8 +5,8 @@ class Game
     @second_hand = second_hand
   end
 
-  def rock_win
-    return "Rock wins" if @first_hand = "rock" && @second_hand = "rock"
+  def game_rules
+    return "Rock wins" if @first_hand = "rock" || @second_hand = "rock"
   end
 
 
