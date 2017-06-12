@@ -12,4 +12,7 @@ get '/about_this' do
   erb(:about_this)
 end
 
-  
+get '/rock/scissor' do
+  return "Rock wins"
+end
+
